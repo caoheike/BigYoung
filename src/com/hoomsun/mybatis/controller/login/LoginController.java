@@ -37,6 +37,8 @@ public class LoginController {
 	public void setDao(CostMapperDao dao) {
 		this.dao = dao;
 	}
+	
+	//测试代码是否提交成功1
 
 	@RequestMapping(value="/toLogin",method=RequestMethod.GET)
 	public String toLogin(){
