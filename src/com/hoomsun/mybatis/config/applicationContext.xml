@@ -83,7 +83,7 @@
 <!-- 将拦截的静态资源js,css等放过去 -->
 <mvc:default-servlet-handler/>
 <bean id="test" class="com.hoomsun.mybatis.util.test" ></bean>
-
+<bean id="test" class="com.hoomsun.mybatis.util.test" >测试</bean>
 </beans>
 
 
